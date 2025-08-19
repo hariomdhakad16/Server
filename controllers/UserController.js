@@ -48,7 +48,7 @@ class UserController {
             const token = jwt.sign({ ID: user._id}, process.env.JWT_SECRET,
                 {expiresIn: "2d" } //2 din me token expire ho jayega
             )
-            // console.log(token)
+            //  console.log(token)
 
             // Send token in HTTP-Only cookie
             res.cookie("token", token, {

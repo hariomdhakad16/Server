@@ -13,7 +13,7 @@ const cors = require("cors");
 
 app.use(
     cors({
-        origin: "https://coursebookinghariom.netlify.app", //your frontend domain
+        origin: "https://coursebooking43.netlify.app/", //your frontend domain
         credentials: true,    // allow credentials (cookies)
     })
 );
