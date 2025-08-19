@@ -45,7 +45,7 @@ class UserController {
             }
             //console.log(isMatch)
             //token create
-            const token = jwt.sign({ ID: user._id}, process.env.JWT_SECRET,
+            const token = jwt.sign({ ID: user._id}, "hariom@8815jfjsdf",
                 {expiresIn: "2d" } //2 din me token expire ho jayega
             )
             // console.log(token)
