@@ -1,5 +1,6 @@
 const express = require('express');
 // console.log(express);
+require("dotenv").config();
 
 const app = express();
 const port = 3000;
@@ -9,7 +10,6 @@ const fileUpload = require('express-fileupload')
 const cookieParser = require('cookie-parser')
 const cors = require("cors");
 
-require("dotenv").config();
 
 app.use(
     cors({
