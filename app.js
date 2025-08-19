@@ -11,7 +11,7 @@ const cors = require("cors");
 // ✅ Fix: remove trailing slash + allow methods + headers
 app.use(
   cors({
-    origin: "https://coursebooking43.netlify.app", // no trailing slash
+    origin: "https://coursebooking76.netlify.app", // no trailing slash
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true, // allow cookies
